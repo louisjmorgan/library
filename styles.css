@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.container {
+    margin: 10px;
+    white-space: pre;
+    display: flex;
+}
+
+.book {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    width: min-content;
+}
+
+.book > button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form {
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    font-style: bold;
+    margin: 10px 0;
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+}
+
+.submit-form {
+    display: block;
+}
+
+.add-book {
+    margin: 20px;
+}
